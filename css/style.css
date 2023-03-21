@@ -52,7 +52,16 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
+/**** nav ******/
+   .logo img{
+        width: 115px;
+        height: 55px;    
+    }
+    nav{
 
+        display: flex;
+        justify-content: space-between;
+    }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -67,8 +76,16 @@ body {
 }
 
 /****** Hebergements ***********/
-.hebergements {
-    width: 65%;
+.hebergements img {
+    width: 250px;
+    height: 200px;
+}
+.liste_des_hebergements{
+
+     display: flex;
+     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /****** Populaires ***********/
@@ -116,8 +133,33 @@ body {
     margin-bottom: 5px;
 }
 
+/******* Activités ******/
 
 
+.activites {
+   
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    
+   
+}
+.liste_activites{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .liste_activites img{
+    width:250px;
+    height: 300px;
+}
+
+/****** footer *****/
+footer{
+
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
