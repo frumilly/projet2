@@ -54,7 +54,7 @@ body {
 }
 /**** nav ******/
    .logo img{
-        width: 115px;
+        width: 100px;
         height: 55px;    
     }
     nav{
@@ -136,20 +136,21 @@ body {
 /******* Activités ******/
 
 
-.activites {
+.liste_activites {
    
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
+    flex-direction: row; 
+    justify-content: space-between;
     
    
 }
-.liste_activites{
+.activite{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
 }
 
- .liste_activites img{
+ .activite img{
     width:250px;
     height: 300px;
 }
