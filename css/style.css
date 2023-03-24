@@ -54,14 +54,20 @@ body {
 }
 /**** nav ******/
    .logo img{
-        width: 100px;
-        height: 55px;    
+        width: 70px;
+        height: 30px;    
     }
     nav{
 
         display: flex;
         justify-content: space-between;
     }
+
+    /***** Header *************/
+
+    .presentation h1 {
+        margin-bottom: -10px; 
+      }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -79,6 +85,8 @@ body {
 .hebergements img {
     width: 250px;
     height: 200px;
+    border-radius: 20px;
+    
 }
 .liste_des_hebergements{
 
@@ -86,11 +94,14 @@ body {
      flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    
 }
-
+.hebergements-cards{
+    margin-right: 40px;
+}
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 42%;
 }
 
 .populaires-title {
@@ -135,13 +146,15 @@ body {
 
 /******* Activités ******/
 
-
+.titre_a{
+    margin-top: 60px;
+}
 .liste_activites {
    
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
-    
+    margin-top: 20px;
    
 }
 .activite{
