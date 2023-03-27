@@ -24,12 +24,23 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
+ul {
+    list-style: none;
+  }
 .section-title {
     margin: 0;
     font-size: 22px;
 }
+.hebergements{
 
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1)); 
+}
+.hebergements img{
+    object-fit: cover;
+}
 .card {
     background-color: white;
     border-radius: 20px;
@@ -55,16 +66,41 @@ body {
 /**** nav ******/
    .logo img{
         width: 70px;
-        height: 30px;    
+        height: 25px;    
     }
-    nav{
+     nav{
 
         display: flex;
         justify-content: space-between;
-    }
+    } 
+  .menu{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
 
     /***** Header *************/
-
+    .info {
+       
+        color: blue;
+        border: 1px solid gray;
+        border-radius: 50%;
+        background-color: white;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 15px;
+      }
+     
+      .info_texte{
+        color:darkslategrey;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      
+      
+      
+      
     .presentation h1 {
         margin-bottom: -10px; 
       }
@@ -79,6 +115,11 @@ body {
     }
     .fa-money-bill-wave{
         padding-left: 13px; /* pour recentrer le billet qui est plus large que les autres icônes */
+        margin-top: 10px;
+    }
+    .filtre_eco{
+        margin-top: 50px;
+        
     }
     .aspect_filtres ,  .aspect_filtres2{
         display: flex;
@@ -105,6 +146,20 @@ body {
     .aspect_filtres2{
         width: 120px;
     }
+    .rechercher {
+        background-color: blue;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      .formulaire i{
+        color:black;
+        background-color:var(--main-bg-color);
+        width: 30px;
+      }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -121,8 +176,9 @@ body {
 /****** Hebergements ***********/
 .hebergements img {
     width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
 }
 .liste_des_hebergements{
@@ -135,7 +191,40 @@ body {
 }
 .hebergements-cards{
     margin-right: 40px;
+    
 }
+
+
+.hebergements {
+    margin-bottom: 120px;
+    position: relative;
+  }
+  
+
+  
+  .hebergements .contenu {
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    width: 85%;
+    padding: 20px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .hebergements .titre {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  
+  .hebergements p {
+    margin-bottom: 10px;
+  }
+  
+
+  
+
 /****** Populaires ***********/
 .populaires {
     width: 42%;
@@ -198,20 +287,55 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    position: relative;
 }
 
  .activite img{
     width:250px;
     height: 300px;
-    border-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+.activite p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    font-weight: bold;
+  }
 
 /****** footer *****/
 footer{
 
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    background-color: var(--main-bg-color);
 }
+
+  
+  .col {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 15px;
+    margin-left: 20px;
+  }
+  footer h3 { margin-left: 20px;}
+  
+ footer li {
+    margin-bottom: 25px;
+  }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
