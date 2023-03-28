@@ -114,12 +114,40 @@ ul {
         margin-top: 20px;
     }
     .fa-money-bill-wave{
-        padding-left: 13px; /* pour recentrer le billet qui est plus large que les autres icônes */
+        padding-left: 13px; 
         margin-top: 10px;
     }
     .filtre_eco{
-        margin-top: 50px;
-        
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .fa-person{
+        padding-left: 13px; 
+        margin-top: 10px;
+    }
+    .filtre_famille{
+        margin-top: -18px;
+        margin-left: 30px;
+    }
+    .fa-heart{
+        padding-left: 13px; 
+        margin-top: 10px;
+    }
+    .fa-fire{
+        padding-left: 13px; 
+        margin-top: 10px;
+    }
+    .filtre_romantique{
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .filtre_pepites{
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .txt{
+        margin-top: 8px;
+        margin-left: 10px;
     }
     .aspect_filtres ,  .aspect_filtres2{
         display: flex;
@@ -281,6 +309,7 @@ ul {
     flex-direction: row; 
     justify-content: space-between;
     margin-top: 20px;
+    
    
 }
 .activite{
@@ -295,18 +324,21 @@ ul {
     height: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); /* Crée une ombre */
+   
 }
-.activite p {
+.activite h5 {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
-    width: 100%;
+    width: 84%;
     background-color: #fff;
     padding: 10px 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin: 0;
-    font-weight: bold;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Crée une ombre */
+   
   }
 
 /****** footer *****/
