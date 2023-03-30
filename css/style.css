@@ -64,7 +64,7 @@ ul {
     color: var(--main-bg-color)
 }
 /**** nav ******/
-   .logo img{
+   nav img{
         width: 70px;
         height: 25px;    
     }
@@ -89,7 +89,17 @@ ul {
     justify-content: space-between;
   
   }
+ .menu li a:hover {
+    border-top: 2px solid blue;
+    color: blue;
+    padding-top: 22px;
+    
+  }
 
+  
+  .menu li a:active {
+    color: blue;
+  }
     /***** Header *************/
     .info {
        
@@ -193,7 +203,7 @@ ul {
         border: none;
         cursor: pointer;
       }
-      .formulaire i{
+      form i{
         color:black;
         background-color:var(--main-bg-color);
         width: 30px;
@@ -317,7 +327,7 @@ ul {
 
 /******* Activités ******/
 
-.titre_a{
+#titre_activites h2{
     margin-top: 60px;
 }
 .liste_activites {
@@ -344,7 +354,7 @@ ul {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); /* Crée une ombre */
    
 }
-.activite h5 {
+.activite h3 {
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -355,6 +365,7 @@ ul {
     border-bottom-right-radius: 10px;
     margin: 0;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Crée une ombre */
+    font-size: 15px;
    
   }
 
