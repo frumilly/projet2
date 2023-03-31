@@ -9,6 +9,7 @@
     --filter-bg-color: #DEEBFF;
 }
 
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -110,6 +111,7 @@ ul {
         padding: 10px;
         font-weight: bold;
         font-size: 15px;
+        width: 10px;
       }
      
       .info_texte{
@@ -119,7 +121,7 @@ ul {
       }
       
       
-      
+     
       
     .presentation h1 {
         margin-bottom: -10px; 
@@ -194,20 +196,48 @@ ul {
     .aspect_filtres2{
         width: 120px;
     }
+    form i.fa-solid {  
+        color:black;
+        background-color:var(--main-bg-color);
+        
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 50px;
+        height: 40px; 
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form input{
+        height: 38px; 
+        border: 1px solid #eeecec;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+       
+      }
+      form input::placeholder {
+        color: black;
+      }
+    form{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+      align-items: center;
+    }
     .rechercher {
+        height: 40px;
         background-color: blue;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
         color: white;
         padding: 10px 20px;
         border: none;
         cursor: pointer;
+        font-weight: bold;
+        
       }
-      form i{
-        color:black;
-        background-color:var(--main-bg-color);
-        width: 30px;
-      }
+ 
 /****** Hebergements And Populaires ***********/
  .hebergements a:link {
     color: black;
