@@ -714,16 +714,19 @@ form i.fa-solid {
         flex-direction: column;
         align-content: space-between;
         height: 100%;
-        padding-left: 25px;
-        padding-right: 25px;
+        
       
     }
     .activite{
         position: relative;
         margin-bottom: 30px;
     }
+    .activite h3{
+        width: 17em;
+        height: 2.5em;
+    }
     .liste_activites img{
-        width: 15em;
+        width: 15.9em;
         height: 150px;
        
     }
