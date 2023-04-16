@@ -15,7 +15,7 @@
         integrity="sha512-J9n1GpH6fn+L6a/Qz1Z57cLAUW2QkH6XCgIOmX9XHlaeoPTKCh+FN6wBwEysryz6cYU6FmuK3q0MTFrp9PK+pw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" >
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style3.css">
     <link rel="shortcut icon" href="images/logo/Booki.png" >
 </head>
 
@@ -23,15 +23,18 @@
     <div class="main-container">
 
 
-        <nav>
-            <img id="logo" src="./images/logo/Booki@3x.png" alt="logo">
-            <ul class="menu">
-                <li> <a href="#hebergements-and-populaires"> Hébergement </a></li>
-                <li><a href="#titre_activites"> Activités </a> </li>
-            </ul>
-        </nav>
-
+       
+        
         <header>
+            <nav>
+                <div class="logo">
+                <img id="logo" src="./images/logo/Booki@3x.png" alt="logo">
+                </div>
+                <ul class="menu">
+                    <li class="hebergementsLi"> <a href="#hebergements-and-populaires"> Hébergement </a></li>
+                    <li class="activitesLi"><a href="#titre_activites"> Activités </a> </li>
+                </ul>
+            </nav>
             <section class="recherche">
                 <div class="presentation">
                     <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
@@ -41,7 +44,7 @@
                 <form>
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" name="localisation" placeholder="Marseille, France" >
-                    <button type="button" class="rechercher">Rechercher</button>
+                    <button type="button" class="rechercher"><span class="mot"> Rechercher </span> <span class="loupe"><i class="fas fa-search"></i></span></button>
                 </form>
 
             </section>
@@ -67,7 +70,7 @@
                 </div>
            
             <div class="info_texte">
-                <i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville               
+                <i class="fa-solid fa-info"></i> <p class="info"> Plus de 500 logements sont disponibles dans cette ville  </p>            
             </div>
         </header>
         <main>
